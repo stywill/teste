@@ -1,0 +1,19 @@
+Sistem teste
+
+Esse sistema é constuido em php5.6 e usa base mysql5.7.
+
+1) O dump da base está junto com a estrudora dos arquivos.
+
+2) No arquivo "database.php" configure a conexão com a base.
+
+3) O arquivo "books.php" tem a classe que comtrola a tabela books.
+Essa classe tem 2 metodos "ler" que recupara todos registros da base e 
+"lerUm" que recupera o registro buscado por id.
+
+4) Assim que acessar a url o sistema deve carregar todos os registros da base
+
+5) Passando na url o parametro ex: "?id=1" o sistema deve retornar o registro com o 
+id correspondente.
+
+6) Passando o parametro ex: "?url=https://kotlinlang.org/docs/books.html" o sistema deve 
+retornar todos os registros da pagina.
